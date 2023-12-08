@@ -1,0 +1,246 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: 0C6BB0;
+}
+.home-container1 {
+  width: 1168px;
+  height: 595px;
+  display: flex;
+  box-shadow: 0px 10px 10px 0px #464646;
+  align-items: flex-start;
+  border-color: #0C6BB0;
+  border-width: 1px;
+  border-radius: 24px;
+  background-color: white;
+}
+.home-container2 {
+  flex: 0 0 auto;
+  width: 785px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-image {
+  width: 781px;
+  height: 598px;
+  object-fit: cover;
+  border-color: #0C6BB0;
+  border-width: 5px;
+  border-radius: 26px;
+}
+.home-container3 {
+  flex: 0 0 auto;
+  width: 364px;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+}
+.home-container4 {
+  width: 364px;
+  height: 107px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-text {
+  color: #ffffff;
+  width: 204px;
+  height: 114px;
+  padding: 10px;
+  font-size: 1.6em;
+  box-shadow: 0px 10px 10px 0px #545454;
+  text-align: center;
+  border-radius: var(--dl-radius-radius-radius4);
+  background-color: #0C6BB0;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+.home-container5 {
+  width: 364px;
+  height: 561px;
+  display: flex;
+  align-items: center;
+  border-radius: 24px;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-textinput {
+  width: 199px;
+  font-size: 18px;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  border-color: #0C6BB0;
+  border-width: 3px;
+  border-radius: var(--dl-radius-radius-radius8);
+}
+.home-textinput1 {
+  color: #0C6BB0;
+  width: 199px;
+  font-size: 18px;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  border-color: #0C6BB0;
+  border-width: 3px;
+  border-radius: var(--dl-radius-radius-radius8);
+}
+.home-textinput2 {
+  color: #0C6BB0;
+  width: 199px;
+  font-size: 18px;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  border-color: #0C6BB0;
+  border-width: 3px;
+  border-radius: var(--dl-radius-radius-radius8);
+}
+.home-textinput3 {
+  color: #0C6BB0;
+  width: 199px;
+  font-size: 18px;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  border-color: #0C6BB0;
+  border-width: 3px;
+  border-radius: var(--dl-radius-radius-radius8);
+}
+.home-textinput4 {
+  color: #0C6BB0;
+  width: 199px;
+  font-size: 18px;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  border-color: #0C6BB0;
+  border-width: 3px;
+  border-radius: var(--dl-radius-radius-radius8);
+}
+.home-button {
+  color: #ffffff;
+  font-size: 20px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-twounits);
+  font-weight: 700;
+  border-width: 0px;
+  margin-bottom: var(--dl-space-space-twounits);
+  background-color: #0C6BB0;
+}
+@media(max-width: 991px) {
+  .home-container {
+    background-size: cover;
+    background-image: url("https://images.ctfassets.net/lhzh8coidz9i/7xiKtmg3DdsKaBI3QJtHT6/7f2990852eed4735c388c839eb58f55d/phonics-phonemic-awareness-building-blocks-of-reading-202202.jpg");
+    background-repeat: repeat-x;
+  }
+  .home-container1 {
+    width: 842px;
+    box-shadow: 0px 10px 10px 0px #575656;
+    border-width: 8px;
+    background-color: rgba(194, 194, 194, 0.4);
+  }
+  .home-container2 {
+    width: 3px;
+  }
+  .home-image {
+    display: none;
+  }
+  .home-container3 {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  .home-container4 {
+    width: 806px;
+    height: 96px;
+  }
+  .home-text {
+    color: rgb(255, 255, 255);
+    width: 244px;
+    height: 112px;
+    padding: 10px;
+    box-shadow: 0px 10px 10px 0px #717171;
+    font-style: normal;
+    font-weight: 800;
+    border-radius: var(--dl-radius-radius-radius4);
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    background-color: rgb(12, 107, 176);
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+  }
+  .home-container5 {
+    width: 852px;
+  }
+  .home-textinput {
+    width: 50%;
+    font-size: 16;
+    box-shadow: 0px 5px 10px 0px #232323;
+  }
+  .home-textinput1 {
+    width: 50%;
+    font-size: 16;
+    box-shadow: 0px 5px 10px 0px #232323;
+  }
+  .home-textinput2 {
+    width: 50%;
+    font-size: 16;
+    box-shadow: 0px 5px 10px 0px #232323;
+  }
+  .home-textinput3 {
+    width: 50%;
+    font-size: 16;
+    box-shadow: 0px 5px 10px 0px #232323;
+  }
+  .home-textinput4 {
+    width: 50%;
+    font-size: 16;
+    box-shadow: 0px 5px 10px 0px #232323;
+  }
+  .home-button {
+    border-color: #ffffff;
+    border-width: 2px;
+  }
+}
+@media(max-width: 767px) {
+  .home-container1 {
+    width: 446px;
+    border-color: #0C6BB0;
+    border-width: 8px;
+    background-color: rgb(0,0,0,0.2);
+  }
+  .home-container2 {
+    width: 51px;
+  }
+  .home-image {
+    display: none;
+  }
+  .home-container4 {
+    width: 356px;
+  }
+  .home-text {
+    color: #ffffff;
+    padding: 10px;
+    box-shadow: 0px 5px 10px 0px #d4d4d4;
+    font-style: normal;
+    font-weight: 800;
+    border-radius: var(--dl-radius-radius-radius4);
+    text-transform: uppercase;
+    background-color: #0C6BB0;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+  }
+  .home-container5 {
+    width: 340px;
+  }
+  .home-button {
+    background-color: #0094ff;
+  }
+}
